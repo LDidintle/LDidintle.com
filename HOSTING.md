@@ -1,4 +1,4 @@
-# Hosting Guide for LDidintle.com
+# Hosting Guide for ldidintle.co.za
 
 This site is a static HTML/CSS/JavaScript portfolio. The simplest hosting options are GitHub Pages, Netlify, or Vercel.
 
@@ -8,7 +8,7 @@ GitHub Pages is a good fit because this site is mainly for GitHub project links 
 
 ### 1. Create the Repository
 
-Create a public GitHub repository named:
+Use your existing public GitHub repository:
 
 ```text
 LDidintle.com
@@ -47,7 +47,7 @@ Buy the domain from a registrar such as Namecheap, GoDaddy, Cloudflare Registrar
 Use:
 
 ```text
-LDidintle.com
+ldidintle.co.za
 ```
 
 ### 4. Add the Custom Domain in GitHub
@@ -59,7 +59,7 @@ In the GitHub repository:
 3. In `Custom domain`, enter:
 
 ```text
-LDidintle.com
+ldidintle.co.za
 ```
 
 4. Save.
@@ -107,7 +107,7 @@ Netlify is also simple:
 .
 ```
 
-6. Add `LDidintle.com` under `Domain management`.
+6. Add `ldidintle.co.za` under `Domain management`.
 7. Follow Netlify's DNS instructions.
 
 ## What to Update Before Publishing

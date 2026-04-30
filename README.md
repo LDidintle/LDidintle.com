@@ -1,4 +1,4 @@
-# LDidintle.com
+# ldidintle.co.za
 
 Personal portfolio website for Didintle Makhubedu, focused on Java backend development, SQL database design, and full-stack software projects.
 
@@ -39,7 +39,7 @@ http://127.0.0.1:4173
 The site is ready for GitHub Pages. The repository includes a `CNAME` file for:
 
 ```text
-LDidintle.com
+ldidintle.co.za
 ```
 
 See [HOSTING.md](HOSTING.md) for DNS and custom domain setup steps.

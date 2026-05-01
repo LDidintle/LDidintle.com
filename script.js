@@ -20,18 +20,25 @@ if (contactForm && formStatus) {
     formStatus.style.color = "";
 
     const formData = new FormData(contactForm);
-    formData.set("name", formData.get("name").trim());
-    formData.set("email", formData.get("email").trim());
-    formData.set("message", formData.get("message").trim());
+    const name = String(formData.get("name") || "").trim();
+    const email = String(formData.get("email") || "").trim();
+    const message = String(formData.get("message") || "").trim();
+
+    formData.set("name", name);
+    formData.set("email", email);
+    formData.set("message", message);
+    formData.set("_replyto", email);
 
     try {
-      const response = await fetch("https://formspree.io/f/maqyvlwg", {
+      const response = await fetch(contactForm.action, {
         method: "POST",
         body: formData,
         headers: { Accept: "application/json" },
       });
 
       if (!response.ok) {
+        const errorText = await response.text();
+        console.error("Formspree submission failed:", response.status, errorText);
         throw new Error("Form submission failed");
       }
 
@@ -42,7 +49,8 @@ if (contactForm && formStatus) {
       setTimeout(() => {
         formStatus.textContent = "";
       }, 4000);
-    } catch {
+    } catch (error) {
+      console.error("Contact form error:", error);
       formStatus.style.color = "red";
       formStatus.textContent = "Something went wrong. Please try again.";
     } finally {

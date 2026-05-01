@@ -1,14 +1,14 @@
 # ldidintle.co.za
 
-Personal portfolio website for Didintle Makhubedu, focused on Java backend development, SQL database design, and full-stack software projects.
+Personal portfolio website for Didintle Makhubedu, focused on Java backend development, SQL database design, Android integration, and full-stack software projects.
 
 ## Overview
 
-This is a static portfolio site built with HTML, CSS, and JavaScript. It highlights selected GitHub repositories, technical skills, and contact links in a clean recruiter-friendly format.
+This is a static portfolio site built with HTML, CSS, and JavaScript. It highlights selected GitHub repositories, technical skills, Android/mobile work, and contact links in a clean recruiter-friendly format.
 
 ## Featured Projects
 
-- [AI Health Agent](https://github.com/LDidintle/AI-HEALTH-AGENT)
+- [AI Health Agent](https://github.com/LDidintle/AI-HEALTH-AGENT): Java/JSP health monitoring platform with Android Kotlin live sync, Health Connect/Galaxy Watch workflow, emulator demo feed, live vital markers, trend graphs, hospital portal, and AI-assisted wellness guidance.
 - [Varsity Registration](https://github.com/Lesmol/varsity_registration)
 - [Health Monitoring App](https://github.com/LDidintle/health_monitoring_app)
 - [Mapty Project](https://github.com/LDidintle/Mapty-project)
@@ -18,6 +18,7 @@ This is a static portfolio site built with HTML, CSS, and JavaScript. It highlig
 - HTML
 - CSS
 - JavaScript
+- Android Kotlin and Health Connect highlighted in project content
 - GitHub Pages ready
 
 ## Local Preview

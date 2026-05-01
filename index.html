@@ -208,13 +208,18 @@
           <a class="button secondary" href="https://github.com/LDidintle" target="_blank" rel="noreferrer">GitHub Profile</a>
         </div>
 
-        <form action="https://formspree.io/f/maqvylwg" method="POST" class="contact-form">
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <textarea name="message" placeholder="Your Message" required></textarea>
+        <div class="form-status success-message" data-fs-success aria-live="polite"></div>
+        <div class="form-status error-message" data-fs-error aria-live="polite"></div>
+
+        <form id="contact-form" action="https://formspree.io/f/maqvylwg" method="POST" class="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required data-fs-field />
+          <span class="field-error" data-fs-error="name"></span>
+          <input type="email" name="email" placeholder="Your Email" required data-fs-field />
+          <span class="field-error" data-fs-error="email"></span>
+          <textarea name="message" placeholder="Your Message" required data-fs-field></textarea>
+          <span class="field-error" data-fs-error="message"></span>
           <input type="hidden" name="_subject" value="New portfolio message from ldidintle.co.za" />
-          <button type="submit">Send Message</button>
-          <p class="form-status" aria-live="polite"></p>
+          <button type="submit" data-fs-submit-btn>Send Message</button>
         </form>
       </div>
     </section>
@@ -225,6 +230,11 @@
     <a href="#top">Back to top</a>
   </footer>
 
+  <script>
+    window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+    formspree("initForm", { formElement: "#contact-form", formId: "maqvylwg" });
+  </script>
+  <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
   <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" fill="none">
+  <title>Conceptual illustration of a health monitoring waveform on a measurement grid</title>
+  <defs>
+    <pattern id="monitor-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#394136" stroke-opacity=".12"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="680" fill="#b59f85"/>
+  <path d="M48 72H952M48 608H952M72 48V632M928 48V632" stroke="#394136" stroke-opacity=".25"/>
+  <path d="M64 72H80M72 64V80M920 72H936M928 64V80M64 608H80M72 600V616M920 608H936M928 600V616" stroke="#394136"/>
+  <rect x="132" y="143" width="736" height="394" rx="4" fill="#c2ad93" stroke="#394136" stroke-width="2"/>
+  <rect x="152" y="163" width="696" height="354" fill="url(#monitor-grid)"/>
+  <path d="M152 341H848M500 163V517" stroke="#394136" stroke-opacity=".2"/>
+  <path d="M152 341H250L271 320L290 341H326L348 366L380 222L417 439L451 317L475 341H547L570 320L590 341H626L648 366L680 222L717 439L751 317L775 341H848" stroke="#394136" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M500 203V213M500 469V479M192 341H202M798 341H808" stroke="#394136" stroke-width="2"/>
+  <circle cx="417" cy="439" r="8" fill="#c2ad93" stroke="#394136" stroke-width="2"/>
+  <path d="M417 453V479H444" stroke="#394136" stroke-opacity=".65"/>
+  <circle cx="680" cy="222" r="8" fill="#c2ad93" stroke="#394136" stroke-width="2"/>
+  <path d="M680 208V185H711" stroke="#394136" stroke-opacity=".65"/>
+  <rect x="152" y="559" width="112" height="7" fill="#394136"/>
+  <rect x="276" y="559" width="40" height="7" fill="#394136" fill-opacity=".3"/>
+  <path d="M776 559H848" stroke="#394136" stroke-width="2"/>
+  <path d="M776 553V565M800 553V565M824 553V565M848 553V565" stroke="#394136"/>
+  <path d="M103 143V537M97 143H109M97 537H109" stroke="#394136" stroke-opacity=".45"/>
+</svg>

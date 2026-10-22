@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" fill="none">
+  <title>Conceptual cartographic illustration of a workout route crossing topographic contours</title>
+  <rect width="1000" height="680" fill="#2b4245"/>
+  <g stroke="#95aaa0" stroke-opacity=".27" stroke-width="1.5">
+    <path d="M-52 184C88 56 204 61 315 106C440 157 461 40 601 16C721-4 854 78 1051 4"/>
+    <path d="M-42 214C84 91 202 92 305 135C425 185 469 75 606 50C729 29 858 110 1044 38"/>
+    <path d="M-31 245C96 128 197 122 298 166C413 216 476 109 611 84C735 61 868 145 1042 72"/>
+    <path d="M-22 275C102 161 193 153 287 197C404 251 481 145 620 118C745 94 879 178 1041 107"/>
+    <path d="M-10 306C108 198 191 184 279 230C393 289 491 182 630 152C756 125 887 212 1040 142"/>
+    <path d="M-1 338C114 233 191 214 272 263C378 326 503 218 642 187C772 157 899 248 1038 177"/>
+    <path d="M8 370C127 266 191 248 266 297C366 363 515 256 654 222C788 190 909 285 1038 212"/>
+    <path d="M17 403C137 299 193 283 262 331C353 395 527 294 667 257C801 222 923 322 1037 249"/>
+    <path d="M25 438C148 334 198 319 258 366C344 432 539 331 681 294C818 256 938 360 1039 286"/>
+    <path d="M34 474C160 370 205 354 256 403C332 474 555 371 696 332C833 294 952 398 1041 324"/>
+    <path d="M41 511C169 406 213 393 257 441C324 516 570 410 711 371C846 334 962 436 1044 364"/>
+    <path d="M48 549C180 446 224 431 262 481C317 552 585 453 729 412C864 373 975 476 1052 406"/>
+    <path d="M54 589C193 486 237 469 270 522C313 594 601 497 747 454C883 414 988 521 1059 450"/>
+    <path d="M63 630C206 527 249 510 282 564C322 633 616 541 766 497C903 457 998 564 1064 494"/>
+    <path d="M70 671C216 570 263 552 297 607C338 674 632 586 783 543C925 501 1008 607 1071 540"/>
+  </g>
+  <path d="M48 72H952M48 608H952M72 48V632M928 48V632" stroke="#d1dbb1" stroke-opacity=".2"/>
+  <path d="M64 72H80M72 64V80M920 72H936M928 64V80M64 608H80M72 600V616M920 608H936M928 600V616" stroke="#d1dbb1"/>
+  <path d="M233 458L324 434L377 467L463 394L430 305L512 242L596 268L677 210L763 229" stroke="#2b4245" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M233 458L324 434L377 467L463 394L430 305L512 242L596 268L677 210L763 229" stroke="#d1db8e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="233" cy="458" r="18" fill="#2b4245" stroke="#d1db8e" stroke-width="2"/>
+  <circle cx="233" cy="458" r="7" fill="#d1db8e"/>
+  <circle cx="463" cy="394" r="5" fill="#d1db8e" stroke="#2b4245" stroke-width="2"/>
+  <circle cx="512" cy="242" r="5" fill="#d1db8e" stroke="#2b4245" stroke-width="2"/>
+  <circle cx="763" cy="229" r="18" fill="#2b4245" stroke="#cf8b78" stroke-width="2"/>
+  <path d="M757 223L769 235M769 223L757 235" stroke="#cf8b78" stroke-width="2" stroke-linecap="round"/>
+  <path d="M826 461V533M790 497H862" stroke="#d1dbb1" stroke-opacity=".8"/>
+  <path d="M826 452L818 472L826 468L834 472L826 452Z" fill="#d1dbb1"/>
+  <circle cx="826" cy="497" r="22" stroke="#d1dbb1" stroke-opacity=".5"/>
+  <path d="M142 144H242M142 138V150M192 138V150M242 138V150" stroke="#d1dbb1" stroke-opacity=".7"/>
+</svg>

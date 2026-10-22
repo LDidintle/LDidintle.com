@@ -4,7 +4,18 @@ Personal portfolio website for Didintle Makhubedu, focused on Java backend devel
 
 ## Overview
 
-This is a static portfolio site built with HTML, CSS, and JavaScript. It highlights selected GitHub repositories, technical skills, Android/mobile work, and contact links in a clean recruiter-friendly format.
+This is a static portfolio site built with HTML, CSS, and JavaScript. It highlights selected GitHub repositories, technical skills, Android/mobile work, and contact links through an editorial layout, original project illustrations, and an interactive wire sculpture.
+
+## Design and interaction
+
+- `styles.css` holds the shared color, typography, spacing, responsive layouts, and reduced-motion rules. The palette uses dark olive, warm paper, and pale citron.
+- `script.js` renders an original torus knot with the Canvas 2D API. Pointer movement gently changes its orientation. Animation stops when the hero leaves the viewport or the tab is hidden, and runs at a maximum of 30 frames per second.
+- The motion toggle pauses the sculpture and transitions. The site follows the visitor’s reduced-motion preference, including changes made while the page is open.
+- `assets/sculpture-static.svg` provides artwork when JavaScript or Canvas is unavailable. Content, native project details, anchor links, and the native contact form remain usable without JavaScript.
+- Project covers in `assets/` are conceptual SVG illustrations, not application screenshots. Repository links and project descriptions document the actual implementations.
+- DM Sans and Instrument Serif load from Google Fonts, with local font fallbacks. The existing Formspree integration enhances the contact form; no framework or animation dependency is required.
+
+The visual direction draws on the immersive composition of [Overworld Audio](https://overworldaudio.com/) and the editorial layouts in [Dribbble’s web design collection](https://dribbble.com/tags/web-design), with original artwork and implementation.
 
 ## Featured Projects
 

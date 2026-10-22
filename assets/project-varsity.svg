@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" fill="none">
+  <title>Conceptual illustration of layered university admission and credential documents</title>
+  <rect width="1000" height="680" fill="#b9b9d1"/>
+  <path d="M48 72H952M48 608H952M72 48V632M928 48V632" stroke="#35364d" stroke-opacity=".18"/>
+  <path d="M64 72H80M72 64V80M920 72H936M928 64V80M64 608H80M72 600V616M920 608H936M928 600V616" stroke="#35364d"/>
+  <path d="M116 164H277V177H237L321 439L405 177H368V164H471V177H427L307 536H286L163 177H116V164Z" fill="#35364d"/>
+  <path d="M116 563H431" stroke="#35364d" stroke-width="2"/>
+  <path d="M116 551V575M431 551V575" stroke="#35364d" stroke-width="2"/>
+  <g transform="rotate(-12 678 340)">
+    <rect x="500" y="128" width="322" height="424" fill="#9395b2" stroke="#35364d" stroke-width="2"/>
+    <path d="M524 154H798V526H524V154Z" stroke="#35364d" stroke-opacity=".35"/>
+  </g>
+  <g transform="rotate(7 678 340)">
+    <rect x="514" y="116" width="322" height="424" fill="#d1d1df" stroke="#35364d" stroke-width="2"/>
+    <path d="M538 142H812V514H538V142Z" stroke="#35364d" stroke-opacity=".3"/>
+  </g>
+  <rect x="528" y="126" width="322" height="424" fill="#eeece5" stroke="#35364d" stroke-width="2"/>
+  <path d="M552 152H826V524H552V152Z" stroke="#35364d" stroke-opacity=".3"/>
+  <path d="M566 206L689 166L812 206L689 246L566 206Z" fill="#35364d"/>
+  <path d="M612 226V257C652 282 726 282 766 257V226M800 211V269" stroke="#35364d" stroke-width="3"/>
+  <circle cx="800" cy="274" r="5" fill="#35364d"/>
+  <path d="M585 311H792M585 331H749" stroke="#35364d" stroke-width="3"/>
+  <path d="M585 371H688M585 391H720M585 411H674" stroke="#35364d" stroke-opacity=".4" stroke-width="2"/>
+  <circle cx="760" cy="453" r="34" stroke="#35364d" stroke-width="2"/>
+  <circle cx="760" cy="453" r="26" stroke="#35364d" stroke-opacity=".4"/>
+  <path d="M746 453L756 463L775 443" stroke="#35364d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M585 484H663" stroke="#35364d" stroke-width="2"/>
+  <path d="M104 112H133M104 112V141M867 568H896M896 539V568" stroke="#35364d" stroke-opacity=".5"/>
+</svg>

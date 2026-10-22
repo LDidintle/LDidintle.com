@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" fill="none">
+  <title>Conceptual illustration of a health data workflow and a mobile pulse display</title>
+  <rect width="1000" height="680" fill="#263b34"/>
+  <path d="M48 72H952M48 608H952M72 48V632M928 48V632" stroke="#a7b7a1" stroke-opacity=".18"/>
+  <path d="M64 72H80M72 64V80M920 72H936M928 64V80M64 608H80M72 600V616M920 608H936M928 600V616" stroke="#d7e1c0"/>
+  <path d="M148 204H240C276 204 276 340 312 340H374M148 476H240C276 476 276 340 312 340M454 340H520C558 340 548 284 588 284H652" stroke="#a7b7a1" stroke-width="2"/>
+  <path d="M148 204H240C276 204 276 340 312 340H374" stroke="#d3e68d" stroke-width="2" stroke-dasharray="5 13"/>
+  <rect x="110" y="166" width="76" height="76" rx="4" fill="#263b34" stroke="#a7b7a1" stroke-width="2"/>
+  <path d="M130 204H139L145 190L154 219L161 204H170" stroke="#d3e68d" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="110" y="438" width="76" height="76" rx="4" fill="#263b34" stroke="#a7b7a1" stroke-width="2"/>
+  <path d="M130 460H166M130 476H157M130 492H148" stroke="#a7b7a1" stroke-width="2"/>
+  <path d="M374 300L414 277L454 300V346L414 369L374 346V300Z" fill="#d3e68d"/>
+  <path d="M397 323L409 335L431 311" stroke="#263b34" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M414 369V456C414 469 402 480 389 480H348" stroke="#a7b7a1" stroke-width="2"/>
+  <ellipse cx="316" cy="465" rx="32" ry="12" fill="#263b34" stroke="#a7b7a1" stroke-width="2"/>
+  <path d="M284 465V495C284 502 298 507 316 507C334 507 348 502 348 495V465M284 480C284 487 298 492 316 492C334 492 348 487 348 480" stroke="#a7b7a1" stroke-width="2"/>
+  <rect x="637" y="112" width="236" height="456" rx="37" fill="#1e302a" stroke="#d7e1c0" stroke-width="2"/>
+  <rect x="649" y="125" width="212" height="430" rx="27" stroke="#a7b7a1" stroke-opacity=".4"/>
+  <path d="M717 139H793" stroke="#d7e1c0" stroke-width="5" stroke-linecap="round"/>
+  <path d="M721 535H789" stroke="#d7e1c0" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="755" cy="284" r="73" stroke="#a7b7a1" stroke-opacity=".3"/>
+  <circle cx="755" cy="284" r="52" stroke="#a7b7a1" stroke-opacity=".3"/>
+  <path d="M667 284H709L721 266L739 311L758 239L777 300L789 284H843" stroke="#d3e68d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M681 402H829M681 430H776M681 458H801" stroke="#a7b7a1" stroke-opacity=".5" stroke-width="3"/>
+  <circle cx="681" cy="372" r="4" fill="#d3e68d"/>
+  <path d="M699 372H744" stroke="#d7e1c0" stroke-width="2"/>
+  <path d="M550 178V194M542 186H558M486 515V531M478 523H494" stroke="#a7b7a1" stroke-opacity=".6"/>
+</svg>

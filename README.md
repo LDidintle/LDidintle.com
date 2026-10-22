@@ -14,6 +14,7 @@ This is a static portfolio site built with HTML, CSS, and JavaScript. It highlig
 - `assets/sculpture-static.svg` provides artwork when JavaScript or Canvas is unavailable. Content, native project details, anchor links, and the native contact form remain usable without JavaScript.
 - Project covers in `assets/` are conceptual SVG illustrations, not application screenshots. Repository links and project descriptions document the actual implementations.
 - DM Sans and Instrument Serif load from Google Fonts, with local font fallbacks. The existing Formspree integration enhances the contact form; no framework or animation dependency is required.
+- UI icons use locally hosted [Heroicons SVGs](assets/icons/README.md) with shared dimensions and inherited theme colors. Navigation arrows and expand/collapse marks do not depend on system font glyphs. The stylesheet URL carries an explicit version for this icon update so browsers request the matching styles after deployment.
 
 The visual direction draws on the immersive composition of [Overworld Audio](https://overworldaudio.com/) and the editorial layouts in [Dribbble’s web design collection](https://dribbble.com/tags/web-design), with original artwork and implementation.
 

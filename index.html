@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=heroicons-1">
   <script src="script.js" defer></script>
 </head>
 <body>
@@ -31,7 +31,7 @@
       <a href="#about">About me</a>
       <a href="#skills">The toolkit</a>
     </nav>
-    <a class="header-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+    <a class="header-contact" href="#contact">Let’s talk <span class="icon icon--chat" aria-hidden="true"></span></a>
   </header>
 
   <main id="main">
@@ -49,13 +49,13 @@
         <h1 id="hero-heading"><span>Logic, with</span><span class="serif"><em>a little wonder.</em></span></h1>
         <p class="hero-text">I’m <strong>Didintle</strong>. I connect backend logic, databases, and thoughtful interfaces to build practical software for the real world.</p>
         <div class="hero-actions" aria-label="Primary links">
-          <a class="round-link" href="#projects"><span class="arrow" aria-hidden="true">↘</span>Explore my work</a>
-          <a class="hero-github" href="https://github.com/LDidintle" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a class="round-link" href="#projects"><span class="arrow" aria-hidden="true"><span class="icon icon--arrow-up-right icon--down-right" aria-hidden="true"></span></span>Explore my work</a>
+          <a class="hero-github" href="https://github.com/LDidintle" target="_blank" rel="noreferrer">GitHub <span class="icon icon--arrow-up-right" aria-hidden="true"></span></a>
         </div>
       </div>
       <div class="hero-bottom">
         <p class="hero-caption">Java at the core.<br>Curiosity everywhere else.</p>
-        <a class="scroll-cue" href="#projects"><span aria-hidden="true">↓</span> A little further down</a>
+        <a class="scroll-cue" href="#projects"><span class="icon icon--arrow-up-right icon--down" aria-hidden="true"></span> A little further down</a>
         <button class="motion-toggle" type="button" aria-label="Pause animations" aria-pressed="false" hidden>
           <span class="motion-icon" aria-hidden="true"><i></i><i></i><i></i></span>
           <span data-motion-label>Motion on</span>
@@ -64,10 +64,10 @@
     </section>
 
     <div class="discipline-strip" aria-label="Areas of focus">
-      <span><b aria-hidden="true">✳</b> Java &amp; backend systems</span>
-      <span><b aria-hidden="true">✳</b> Relational databases</span>
-      <span><b aria-hidden="true">✳</b> Android integration</span>
-      <span><b aria-hidden="true">✳</b> Full-stack development</span>
+      <span><span class="icon icon--asterisk" aria-hidden="true"></span> Java &amp; backend systems</span>
+      <span><span class="icon icon--asterisk" aria-hidden="true"></span> Relational databases</span>
+      <span><span class="icon icon--asterisk" aria-hidden="true"></span> Android integration</span>
+      <span><span class="icon icon--asterisk" aria-hidden="true"></span> Full-stack development</span>
     </div>
 
     <section id="projects" class="section" aria-labelledby="work-heading">
@@ -80,7 +80,7 @@
         <article class="project-card reveal">
           <a class="project-cover" href="https://github.com/LDidintle/AI-HEALTH-AGENT" target="_blank" rel="noreferrer" aria-label="Explore AI Health Agent on GitHub">
             <img src="assets/project-health.svg" alt="" width="1000" height="680" loading="lazy">
-            <span class="cover-index" aria-hidden="true">01 / HEALTH SYSTEMS</span><span class="cover-arrow" aria-hidden="true">↗</span>
+            <span class="cover-index" aria-hidden="true">01 / HEALTH SYSTEMS</span><span class="cover-arrow" aria-hidden="true"><span class="icon icon--arrow-up-right" aria-hidden="true"></span></span>
           </a>
           <div class="project-meta"><span>Main project</span><span>Java · Android · PostgreSQL</span></div>
           <h3>AI Health Agent</h3>
@@ -94,13 +94,13 @@
               <li>PostgreSQL/Supabase schema, Docker, Tomcat, and Render deployment configuration</li>
             </ul>
           </details>
-          <a class="text-link project-link" href="https://github.com/LDidintle/AI-HEALTH-AGENT" target="_blank" rel="noreferrer">Explore repository <span aria-hidden="true">↗</span></a>
+          <a class="text-link project-link" href="https://github.com/LDidintle/AI-HEALTH-AGENT" target="_blank" rel="noreferrer">Explore repository <span class="icon icon--arrow-up-right" aria-hidden="true"></span></a>
         </article>
 
         <article class="project-card reveal">
           <a class="project-cover" href="https://github.com/Lesmol/varsity_registration" target="_blank" rel="noreferrer" aria-label="Explore Varsity Registration on GitHub">
             <img src="assets/project-varsity.svg" alt="" width="1000" height="680" loading="lazy">
-            <span class="cover-index" aria-hidden="true">02 / STUDENT WORKFLOWS</span><span class="cover-arrow" aria-hidden="true">↗</span>
+            <span class="cover-index" aria-hidden="true">02 / STUDENT WORKFLOWS</span><span class="cover-arrow" aria-hidden="true"><span class="icon icon--arrow-up-right" aria-hidden="true"></span></span>
           </a>
           <div class="project-meta"><span>Collaborative</span><span>Next.js · Firebase</span></div>
           <h3>Varsity Registration</h3>
@@ -109,13 +109,13 @@
             <summary>Under the hood<span class="sr-only"> of Varsity Registration</span></summary>
             <ul><li>Frontend authentication screens</li><li>Firebase configuration support</li><li>Team-based project structure</li></ul>
           </details>
-          <a class="text-link project-link" href="https://github.com/Lesmol/varsity_registration" target="_blank" rel="noreferrer">Explore repository <span aria-hidden="true">↗</span></a>
+          <a class="text-link project-link" href="https://github.com/Lesmol/varsity_registration" target="_blank" rel="noreferrer">Explore repository <span class="icon icon--arrow-up-right" aria-hidden="true"></span></a>
         </article>
 
         <article class="project-card reveal">
           <a class="project-cover" href="https://github.com/LDidintle/health_monitoring_app" target="_blank" rel="noreferrer" aria-label="Explore Health Monitoring App on GitHub">
             <img src="assets/project-monitor.svg" alt="" width="1000" height="680" loading="lazy">
-            <span class="cover-index" aria-hidden="true">03 / HEALTH MONITORING</span><span class="cover-arrow" aria-hidden="true">↗</span>
+            <span class="cover-index" aria-hidden="true">03 / HEALTH MONITORING</span><span class="cover-arrow" aria-hidden="true"><span class="icon icon--arrow-up-right" aria-hidden="true"></span></span>
           </a>
           <div class="project-meta"><span>Prototype</span><span>Flask · SQLAlchemy</span></div>
           <h3>Health Monitoring App</h3>
@@ -124,13 +124,13 @@
             <summary>Under the hood<span class="sr-only"> of Health Monitoring App</span></summary>
             <ul><li>SQLAlchemy data models</li><li>Alert and emergency pages</li><li>Render deployment setup</li></ul>
           </details>
-          <a class="text-link project-link" href="https://github.com/LDidintle/health_monitoring_app" target="_blank" rel="noreferrer">Explore repository <span aria-hidden="true">↗</span></a>
+          <a class="text-link project-link" href="https://github.com/LDidintle/health_monitoring_app" target="_blank" rel="noreferrer">Explore repository <span class="icon icon--arrow-up-right" aria-hidden="true"></span></a>
         </article>
 
         <article class="project-card reveal">
           <a class="project-cover" href="https://github.com/LDidintle/Mapty-project" target="_blank" rel="noreferrer" aria-label="Explore Mapty Project on GitHub">
             <img src="assets/project-mapty.svg" alt="" width="1000" height="680" loading="lazy">
-            <span class="cover-index" aria-hidden="true">04 / MOVEMENT &amp; MAPS</span><span class="cover-arrow" aria-hidden="true">↗</span>
+            <span class="cover-index" aria-hidden="true">04 / MOVEMENT &amp; MAPS</span><span class="cover-arrow" aria-hidden="true"><span class="icon icon--arrow-up-right" aria-hidden="true"></span></span>
           </a>
           <div class="project-meta"><span>Supporting project</span><span>JavaScript · Leaflet</span></div>
           <h3>Mapty Project</h3>
@@ -139,7 +139,7 @@
             <summary>Under the hood<span class="sr-only"> of Mapty Project</span></summary>
             <ul><li>Browser geolocation API</li><li>Leaflet map integration</li><li>Client-side state persistence</li></ul>
           </details>
-          <a class="text-link project-link" href="https://github.com/LDidintle/Mapty-project" target="_blank" rel="noreferrer">Explore repository <span aria-hidden="true">↗</span></a>
+          <a class="text-link project-link" href="https://github.com/LDidintle/Mapty-project" target="_blank" rel="noreferrer">Explore repository <span class="icon icon--arrow-up-right" aria-hidden="true"></span></a>
         </article>
       </div>
       <p class="work-footnote">Project covers are original illustrations. Explore the repositories for implementation details.</p>
@@ -157,7 +157,7 @@
         </div>
       </div>
       <div class="approach-section">
-        <div class="approach-heading"><h3>A simple way of thinking.</h3><p>Input → Processing → Output</p></div>
+        <div class="approach-heading"><h3>A simple way of thinking.</h3><p>Input <span class="icon icon--arrow-up-right icon--right" aria-hidden="true"></span> Processing <span class="icon icon--arrow-up-right icon--right" aria-hidden="true"></span> Output</p></div>
         <div class="approach-flow">
           <div class="approach-step reveal"><span>01</span><h4>Understand the input.</h4><p>Define what enters the system, what the user needs, and what the data should look like.</p></div>
           <div class="approach-step reveal"><span>02</span><h4>Make the logic clear.</h4><p>Process it through understandable backend and database logic, with each part doing its job.</p></div>
@@ -184,8 +184,8 @@
           <h2 id="contact-heading">Something<br><span class="serif"><em>in mind?</em></span></h2>
           <p>Open to junior software developer opportunities, collaborations, and a good conversation about what comes next.</p>
           <div class="contact-actions">
-            <a class="text-link" href="mailto:lefadidintle@gmail.com">lefadidintle@gmail.com <span aria-hidden="true">↗</span></a>
-            <a class="text-link" href="https://github.com/LDidintle" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="mailto:lefadidintle@gmail.com">lefadidintle@gmail.com <span class="icon icon--envelope" aria-hidden="true"></span></a>
+            <a class="text-link" href="https://github.com/LDidintle" target="_blank" rel="noreferrer">GitHub <span class="icon icon--arrow-up-right" aria-hidden="true"></span></a>
           </div>
         </div>
         <div class="contact-content">
@@ -198,14 +198,14 @@
             <input type="hidden" name="_subject" value="New portfolio message from ldidintle.co.za">
             <button class="form-submit" type="submit" data-fs-submit-btn>Send a message</button>
           </form>
-          <p class="form-note">Straight to my inbox. I’ll get back to you by email.</p>
+          <p class="form-note"><span class="icon icon--inbox" aria-hidden="true"></span><span>Straight to my inbox. I’ll get back to you by email.</span></p>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="footer-top"><p>Built with intention. Always in progress.</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></div>
+    <div class="footer-top"><p>Built with intention. Always in progress.</p><a href="#top">Back to top <span class="icon icon--arrow-up-right icon--up" aria-hidden="true"></span></a></div>
     <p class="footer-wordmark" aria-hidden="true">Didintle<span>.</span></p>
     <div class="footer-bottom"><p>© <span id="year">2026</span> Didintle Makhubedu</p><p>South Africa / Software &amp; possibility</p></div>
   </footer>

@@ -20,7 +20,7 @@
   <path d="M721 535H789" stroke="#d7e1c0" stroke-width="3" stroke-linecap="round"/>
   <circle cx="755" cy="284" r="73" stroke="#a7b7a1" stroke-opacity=".3"/>
   <circle cx="755" cy="284" r="52" stroke="#a7b7a1" stroke-opacity=".3"/>
-  <path d="M667 284H709L721 266L739 311L758 239L777 300L789 284H843" stroke="#d3e68d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path data-animate-trace="health-waveform" pathLength="1" d="M667 284H709L721 266L739 311L758 239L777 300L789 284H843" stroke="#d3e68d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M681 402H829M681 430H776M681 458H801" stroke="#a7b7a1" stroke-opacity=".5" stroke-width="3"/>
   <circle cx="681" cy="372" r="4" fill="#d3e68d"/>
   <path d="M699 372H744" stroke="#d7e1c0" stroke-width="2"/>

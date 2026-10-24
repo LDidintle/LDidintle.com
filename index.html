@@ -13,23 +13,24 @@
   <link rel="canonical" href="https://ldidintle.co.za/">
   <title>Didintle Makhubedu | Software Developer</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=heroicons-1">
-  <script src="script.js" defer></script>
+  <link rel="preload" href="assets/fonts/dm-sans-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/instrument-serif-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/fonts/fonts.css?v=polish-1">
+  <link rel="stylesheet" href="styles.css?v=polish-1">
+  <script src="script.js?v=polish-1" defer></script>
+  <script src="interactions.js?v=polish-1" defer></script>
 </head>
-<body>
+<body id="top">
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header" id="top">
+  <header class="site-header">
     <a class="brand" href="#top" aria-label="Didintle Makhubedu home">
       <span class="brand-mark" aria-hidden="true">d.</span>
       <span class="brand-name">Didintle<br>Makhubedu</span>
     </a>
     <nav class="main-nav" aria-label="Main navigation">
-      <a href="#projects">Selected work</a>
-      <a href="#about">About me</a>
-      <a href="#skills">The toolkit</a>
+      <a href="#projects" aria-label="Selected work"><span class="nav-label-full">Selected work</span><span class="nav-label-short" aria-hidden="true">Work</span></a>
+      <a href="#about" aria-label="About me"><span class="nav-label-full">About me</span><span class="nav-label-short" aria-hidden="true">About</span></a>
+      <a href="#skills" aria-label="The toolkit"><span class="nav-label-full">The toolkit</span><span class="nav-label-short" aria-hidden="true">Toolkit</span></a>
     </nav>
     <a class="header-contact" href="#contact">Let’s talk <span class="icon icon--chat" aria-hidden="true"></span></a>
   </header>
@@ -38,7 +39,6 @@
     <section class="hero" aria-labelledby="hero-heading">
       <div class="hero-art" aria-hidden="true">
         <img class="sculpture-fallback" src="assets/sculpture-static.svg" alt="" width="1000" height="900" fetchpriority="high">
-        <canvas id="sculpture"></canvas>
         <span class="art-coordinate art-coordinate--top">FIG. 01 — CONNECTED THINKING</span>
         <span class="art-coordinate art-coordinate--bottom">CODE / CONNECT / CREATE</span>
         <span class="art-axis art-axis--one"></span>
@@ -56,10 +56,6 @@
       <div class="hero-bottom">
         <p class="hero-caption">Java at the core.<br>Curiosity everywhere else.</p>
         <a class="scroll-cue" href="#projects"><span class="icon icon--arrow-up-right icon--down" aria-hidden="true"></span> A little further down</a>
-        <button class="motion-toggle" type="button" aria-label="Pause animations" aria-pressed="false" hidden>
-          <span class="motion-icon" aria-hidden="true"><i></i><i></i><i></i></span>
-          <span data-motion-label>Motion on</span>
-        </button>
       </div>
     </section>
 
@@ -206,9 +202,15 @@
 
   <footer class="site-footer">
     <div class="footer-top"><p>Built with intention. Always in progress.</p><a href="#top">Back to top <span class="icon icon--arrow-up-right icon--up" aria-hidden="true"></span></a></div>
-    <p class="footer-wordmark" aria-hidden="true">Didintle<span>.</span></p>
+    <p class="footer-wordmark" aria-hidden="true"><span class="footer-name" data-text="Didintle.">Didintle<span class="footer-dot">.</span></span></p>
     <div class="footer-bottom"><p>© <span id="year">2026</span> Didintle Makhubedu</p><p>South Africa / Software &amp; possibility</p></div>
   </footer>
+
+  <canvas id="sculpture" class="sculpture-canvas" aria-hidden="true" hidden></canvas>
+  <button class="motion-toggle" type="button" aria-label="Pause animations" aria-pressed="false" title="Pause or resume animations" hidden>
+    <span class="motion-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+    <span data-motion-label>Motion on</span>
+  </button>
 
   <script>
     window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };

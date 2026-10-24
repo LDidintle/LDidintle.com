@@ -21,7 +21,7 @@
   <path d="M48 72H952M48 608H952M72 48V632M928 48V632" stroke="#d1dbb1" stroke-opacity=".2"/>
   <path d="M64 72H80M72 64V80M920 72H936M928 64V80M64 608H80M72 600V616M920 608H936M928 600V616" stroke="#d1dbb1"/>
   <path d="M233 458L324 434L377 467L463 394L430 305L512 242L596 268L677 210L763 229" stroke="#2b4245" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M233 458L324 434L377 467L463 394L430 305L512 242L596 268L677 210L763 229" stroke="#d1db8e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path data-animate-trace="mapty-route" pathLength="1" d="M233 458L324 434L377 467L463 394L430 305L512 242L596 268L677 210L763 229" stroke="#d1db8e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   <circle cx="233" cy="458" r="18" fill="#2b4245" stroke="#d1db8e" stroke-width="2"/>
   <circle cx="233" cy="458" r="7" fill="#d1db8e"/>
   <circle cx="463" cy="394" r="5" fill="#d1db8e" stroke="#2b4245" stroke-width="2"/>
